@@ -180,6 +180,7 @@ namespace ShaftConstruction
             }
             );
             Console.WriteLine("Result time = {0} s", stopWatch.Elapsed.TotalSeconds);
+            //Parallel version slower, try use Array
 
             Console.ReadKey();
 
